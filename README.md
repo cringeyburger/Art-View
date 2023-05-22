@@ -3,13 +3,24 @@ Art View is a frontend only app made with React. The app integrates with the Red
 
 
 ## Tech Stack : 
-1) React
-2) Axios
+1) React : Offers component-based development -> easier to build complex UIs and manage states
+2) Axios : Works better with React and does more work with less code (with help of named functions)
 3) HTML
 4) CSS
 5) JavaScript
-6) BootStrap
-7) React Icons
+6) BootStrap : Speeds up styling process
+7) React Icons : Easy integration and scalability
+
+## External Dependencies
+0) It is expected that React is installed in your system
+1) Axios :  
+``` 
+npm install axios
+```
+2) React Icons :
+```
+npm install react-icons
+```
 
 ## How does it work?
 ### 1) Initialization
@@ -38,3 +49,6 @@ b) Each image item consists of an image tag, displaying the image itself, along 
 a) When an image is clicked, the app enters full-screen mode. In full-screen mode, the selected image is displayed along with navigation buttons to navigate through the images. 
 
 b) Clicking the navigation buttons updates the currentIndex state accordingly, allowing users to view the previous and next images. Clicking the back button (top-left) exits the full-screen mode. 
+
+
+This project was made by a complete beginner who just started web development :)
