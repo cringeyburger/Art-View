@@ -1,5 +1,5 @@
 # Art View
-Art View is a frontend only app made with React. The app integrates with the Reddit API using the Axios library, allowing it to fetch the latest artwork images from the /r/pics subreddit. 
+Art View is a frontend only app made with React. The app integrates with the Reddit API using the Axios library, allowing it to fetch the latest images from the /r/pics subreddit. 
 
 
 ## Tech Stack : 
@@ -29,7 +29,7 @@ a) When the app loads, it initializes the necessary states using the useState ho
 b) These states include 'imageURLs' to store fetched image data, 'query' for search query, 'error' to handle any errors, 'isFullScreen' to track the full-screen mode and 'currentIndex' to keep track of the current image.
 
 ### 2) Data Fetching
-a) When the app is initialized, the useEffect hook is used to fetch data from the Reddit API. It makes an asynchronous request using Axios to retrieve the JSON data from the URL: https://www.reddit/com/r/pics.json
+a) When the app is initialized, the useEffect hook is used to fetch data from the Reddit API. It makes an asynchronous request using Axios to retrieve the JSON data from the URL: https://www.reddit.com/r/pics.json
 
 b) The response data is then parsed through to extract the image URLs, titles and authors, which are stored in the 'imageURLs' state. If there is an error during the data fetching process, it is stored in 'error' state.
 
