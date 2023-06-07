@@ -51,4 +51,4 @@ a) When an image is clicked, the app enters full-screen mode. In full-screen mod
 b) Clicking the navigation buttons updates the currentIndex state accordingly, allowing users to view the previous and next images. Clicking the back button (top-left) exits the full-screen mode. 
 
  
-***This project was made by a complete beginner who just started web development so if you encounter any issues, I'm sorry in advance :)***
+***This project was made by a complete beginner who just started web development so if you encounter any issue, I'm sorry in advance :)***
